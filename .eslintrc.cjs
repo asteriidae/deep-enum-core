@@ -58,7 +58,7 @@ module.exports = {
   rules: {
     // other
     'max-len': ['warn', {code: 100, comments: 120, ignoreUrls: true}],
-    'max-lines-per-function': ['error', 100],
+    'max-lines-per-function': ['error', 150],
     'require-await': 'off',
     'object-property-newline': ['error', {allowAllPropertiesOnSameLine: true}],
     'no-unused-vars': 'off', // use typescript rule instead
